@@ -12,7 +12,7 @@ pool:
 steps:
 
 - script: pip install -r requirements.txt
-  displayName : 'installing requirements.
+  displayName: 'installing requirements.
   
 - script: echo Hello, world!
   displayName: 'Run a one-line script'
