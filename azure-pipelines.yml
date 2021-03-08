@@ -10,6 +10,10 @@ pool:
   vmImage: ubuntu-latest
 
 steps:
+
+- script: pip install -r requirements.txt
+  displayName : 'installing requirements.
+  
 - script: echo Hello, world!
   displayName: 'Run a one-line script'
   
